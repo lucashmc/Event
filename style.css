@@ -6,6 +6,8 @@ body{
     background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
     background-repeat: no-repeat; /* Evita repetição da imagem */
     color: #f4f4f4;
+    overflow-x: hidden;
+    
 }
 
 /* CABEÇALHO*/
@@ -43,14 +45,15 @@ header{
 }
 
 
-  footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+footer {
     background: #333;
     color: white;
-    text-align:  left;
-    padding: 10px;
+    text-align: left;
+    padding: 10px 20px;
+    font-size: 14px;
+    position: relative; /* ou você pode remover completamente se não precisar */
+    bottom: 0;
+    width: 100%;
 }
 .empresa{
     text-align:right;
