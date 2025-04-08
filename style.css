@@ -45,18 +45,31 @@ header{
 }
 
 
-footer {
-    background: #333;
+.footer {
+    background-color: #2c2c2c;
     color: white;
-    text-align: left;
-    padding: 10px 20px;
-    font-size: 14px;
-    position: relative; /* ou você pode remover completamente se não precisar */
-    bottom: 0;
-    width: 100%;
-}
-.empresa{
-    text-align:right;
-    top: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
     
-}
+   
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer-info p {
+    margin: 5px 0;
+  }
+  
+  .footer-logos {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .logo {
+    height: 50px;
+  }
